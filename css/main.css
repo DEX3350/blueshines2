@@ -478,6 +478,14 @@ figure {
   grid-row-end: 6;
   
 }
+.col53{
+  padding-bottom: 3%;
+  flex: 1;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+}
 .photograph-layout img {
   border: 5px solid #ffffff;
   border-top: 15px solid #ffffff;
