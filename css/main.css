@@ -1,0 +1,511 @@
+p{
+  margin: 0%;
+}
+
+
+.navlink{  
+  list-style: none;
+}
+.navlink ul {
+  height: 100%;
+  display: flex;
+  margin: 0 -20px;
+}
+.navlink li{
+  position: relative;
+  
+  display: inline-block;
+  padding: 0px 20px;
+  
+} 
+.navlink li::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 20px;
+  
+  
+  position: absolute;
+  right: -1px;
+  top: calc((100% - 20px)/2);
+}
+.navlink li:last-child::after {
+  content: none;
+} 
+
+.navlink li a{
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease 0s;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  padding: 0 20px;
+  font-weight: 500;
+  font-size: 16px;
+  
+  text-decoration: none;
+
+}
+
+.navlink li a:hover{
+  color: rgb(173, 215, 253);
+
+}
+
+.navlink a:hover span::after{
+  content:"";
+ 
+  display: block;
+  height: 4px;
+  width: 100%;
+  bottom: 27px;
+  background-color: rgb(173, 215, 253);
+  border-radius: 5px;
+
+}
+
+
+.language-links {
+  list-style: none;
+  margin-left: 900px;
+  display: flex;
+  text-align: l;
+  width: fit-content;
+}
+
+ul.language-links li {
+  margin-right: 10px;
+  padding-left: 10px;
+
+  
+}
+
+ul.language-links li:last-child {
+  margin-right: 0;
+  
+}
+
+ul.language-links a {
+  color: white;
+  text-decoration: none;
+}
+
+ul.language-links a:hover {
+  color: rgb(173, 215, 253);
+}
+
+
+.TOP{
+  
+  background-image:url("../images/headerpic.jpg") ;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: bottom ;
+  height: 750px;
+  /* height: 685px; */
+}
+.bs {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%); /* Move it 50% to the left and 50% up */
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-family: 'Radley';
+  font-style:normal;
+  font-weight:700;
+  font-size: 50px;
+  line-height: 54px;
+}
+.bs span{
+  font-size: 30px;
+}
+
+.language-navbar {
+  /* Add any specific styles you want for the language navbar */
+  font-size: small;
+  align-items: center;
+  
+}
+
+.page-navbar {
+  /* Add any specific styles you want for the page navbar */
+}
+
+/* Rest of your existing CSS styles for other elements can remain unchanged */
+
+.cont1{
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  align-items:center; /* Align items at the top */
+}
+
+.logo{
+  margin-right: 20px;
+  /* position: absolute; */
+  cursor: pointer;
+  width: 150px;
+  transition: all linear .5s; 
+}
+
+.mbpic{
+  position:relative;
+  
+}
+
+.first {
+  display: flex;
+  justify-content: center; /* Center the flex items horizontally */
+  align-items: center; /* Center the flex items vertically */
+  margin-top: 10px;
+  font-family: 'Radley';
+  font-style: normal;
+  flex-direction: column;
+}
+
+.col1 {
+  flex: 1;
+  font-weight: 400;
+  font-size: 40px;
+  /* identical to box height */
+  text-align: center;
+  color: #5785BA;
+
+
+}
+
+.col2 {
+padding-top: 10px;
+width: 50%;
+font-family: 'Bahnschrift';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 200%;
+/* or 56px */
+
+text-align: center;
+
+color: #5785BA;
+
+}
+.col3 img {
+  
+  padding-top: 10px;
+  width: 40%; /* Adjust the width as needed */
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.col4{
+  padding-top: 10px;
+
+  font-family: 'Bahnschrift';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  /* or 56px */
+
+  text-align: center;
+
+  color: #5785BA;
+}
+.second {
+  background-image: url("../images/secondcopy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top; /* Adjust the vertical alignment as needed */
+  min-height: 800px; /* Use min-height instead of height */
+  flex-direction: column;
+}
+
+.col21{
+  padding-top: 20px;
+  flex: 1;
+  font-weight: 400;
+  font-size: 40px;
+  /* identical to box height */
+  text-align: center;
+  color: #5785BA;
+}
+.col22{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  margin: 10px 10px;
+  font-family: 'Bahnschrift';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  color: #5785BA;
+}
+.col221{
+  width: 35%;
+}
+.col222{
+  width: 30%;
+}
+
+.col23{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  margin: 10 10;
+  font-family: 'Bahnschrift';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  color: #5785BA;
+}
+.third{
+
+    background-image: url("../images/setouchiblueshines.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom; /* Adjust the vertical alignment as needed */
+    flex-direction: column;
+    height: 850px;
+}
+.col31{
+  padding-top: 4%;
+  flex: 1;
+  font-weight: 400;
+  font-size: 40px;
+  /* identical to box height */
+  text-align: center;
+  color: #5785BA;
+}
+
+.col32 {
+  padding-top: 40px;
+  width: 100%;
+  font-family: 'Bahnschrift';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  /* or 56px */
+  
+  text-align: center;
+  
+  color: #5785BA;
+  
+  }
+  .col33{
+    padding-top: 10px;
+  
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    /* or 56px */
+  
+    text-align: center;
+  
+    color: #5785BA;
+  }
+
+  .forth{
+
+    background-image: url("../images/map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20px 30%; /* Fallback for older browsers */
+    background-position:center;
+    flex-direction: column;
+    height:900px;
+}
+.col41{
+  padding-top: 2%;
+  flex: 1;
+  font-weight: 400;
+  font-size: 40px;
+  /* identical to box height */
+  text-align: center;
+  color: #5785BA;
+}
+
+.col42 {
+  padding-top: 40px;
+  width: 100%;
+  font-family: 'Bahnschrift';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  /* or 56px */
+  
+  text-align: center;
+  
+  color: #5785BA;
+  
+}
+.col43{
+  padding-top: 10px;
+  padding-right: 30%;
+
+  font-family: 'Bahnschrift';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  /* or 56px */
+
+  text-align: right;
+
+  color: rgb(87, 133, 186);
+}
+.col44 {
+  padding-top: 20%;
+  display: flex;
+  justify-content: space-around; /* Align items with equal space between them */
+  font-family: 'Bahnschrift';
+  font-style: normal;
+  font-weight:500;
+  font-size: 25px;
+  line-height: 200%;
+  color: #5785BA;
+}
+.col45 img{
+  width: 100%;
+}
+.col46{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.col46 img{
+  width: 200px;
+  height: auto;
+}
+.fifth{
+
+  background-image: url("../images/gall.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center ;
+  flex-direction: column;
+  height:190vh;
+  justify-content: center;
+  
+}
+.col51{
+  padding-top: 2%;
+  flex: 1;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+.galgrid{
+  width: 60%;
+  margin: 2rem auto; 
+  margin-bottom: 0%;
+}
+.col52{
+  display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 5vw);
+    grid-gap: 1.5rem; 
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    
+}
+figure {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.gallery__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  object-position: top;
+}
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+.gallery__item--2 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.gallery__item--3 {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.gallery__item--4 {
+  grid-column-start: 3;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 6;
+  
+}
+.photograph-layout img {
+  border: 5px solid #ffffff;
+  border-top: 15px solid #ffffff;
+} 
+.photograph-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Adjust as needed */
+}
+
+.tilted-image {
+  width: 40%; /* Adjust as needed */
+  position: relative;
+  overflow: hidden;
+}
+
+.left {
+  transform: rotate(-10deg);
+  margin-right: 1%; /* Adjust spacing between images */
+}
+
+.right {
+  transform: rotate(10deg);
+  margin-left: 1%; /* Adjust spacing between images */
+}
+
+.tilted-image img {
+  width: 96%;
+  display: block;
+}

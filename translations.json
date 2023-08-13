@@ -1,0 +1,30 @@
+{
+    "en": {
+      "navAbout": "About Baseball",
+      "navTeam": "Team",
+      "navMatch": "Match Info",
+      "navMembers": "Members",
+      "navSetouchi": "Setouchi",
+      "welcomeTitle": "WELCOME",
+      "welcomeText": "Welcome to the Official Homepage of the Setouchi BLUESHINES - Women's Baseball Team! We are proud to showcase the incredible talent, passion, and achievements of our team. Join us as we break barriers, redefine the game, and inspire the next generation of female athletes!",
+      "readMore": "Read More",
+      "rulebookTitle": "BASEBALL's RULEBOOK",
+      "rulebookText": "Baseball is a beloved sport with a rich history. It's a game of strategy, athleticism, and teamwork. At Setouchi BLUESHINES, we embrace the thrill of the diamond and the crack of the bat. ",
+      "rulebookTextt":"Explore the dynamic world of baseball and witness the extraordinary journey of women in this game."
+       
+    },
+    "ja": {
+      "navAbout": "野球について",
+      "navTeam": "チーム",
+      "navMatch": "試合情報",
+      "navMembers": "メンバー",
+      "navSetouchi": "瀬戸内",
+      "welcomeTitle": "ようこそ",
+      "welcomeText": "セトウチブルーシャインズ公式ホームページへようこそ！私たちはチームの信じられないほどの才能、情熱、成果を自慢しています。私たちは障壁を打ち破り、ゲームを再定義し、次世代の女性アスリートたちにインスピレーションを与えることを目指しています！",
+      "readMore": "詳細を読む",
+      "rulebookTitle": "野球のルールブック",
+      "rulebookText": "野球は歴史ある愛されるスポーツです。戦略、運動能力、チームワークが求められるゲームです。セトウチブルーシャインズでは、ダイヤモンドとバットの鳴り響くスリルを楽しんでいます。野球のダイナミックな世界を探検し、このスポーツにおける女性の途方もない旅を目撃してください。",
+      "rulebookTextt": "野球のダイナミックな世界を探検し、このスポーツにおける女性の途方もない旅を目撃してください。"
+    }
+  }
+  
