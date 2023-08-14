@@ -481,10 +481,14 @@ figure {
 .col53{
   padding-bottom: 3%;
   flex: 1;
-  font-weight: 400;
+  font-family: 'Bahnschrift';
+  font-style: normal;
+  font-weight:500;
   font-size: 40px;
+  line-height: 200%;
+  color: #5785BA;
   text-align: center;
-  color: #ffffff;
+  
 }
 .photograph-layout img {
   border: 5px solid #ffffff;
@@ -516,4 +520,5 @@ figure {
 .tilted-image img {
   width: 96%;
   display: block;
+  box-shadow: 10px 10px;
 }
